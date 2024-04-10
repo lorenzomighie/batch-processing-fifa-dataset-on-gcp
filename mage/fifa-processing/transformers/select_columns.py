@@ -22,8 +22,10 @@ def transform(data, *args, **kwargs):
 
     columns_to_keep = [
         'sofifa_id',
-        'player_url',
+        'version',
         'short_name',
+        'overall',
+        'player_url',
         'age',
         'dob',
         'height_cm',
@@ -32,19 +34,15 @@ def transform(data, *args, **kwargs):
         'club_name',
         'league_name',
         'league_level',
-        'overall',
         'potential',
         'value_eur',
         'wage_eur',
-        'player_positions',
-        'version'
+        'player_positions' 
     ]
     print(data.columns)
 
     # filter out not considered fields
     data = data[columns_to_keep]
-
-    # filter something else out, check null values..
 
     return data
 

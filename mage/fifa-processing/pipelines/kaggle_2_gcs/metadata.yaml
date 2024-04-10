@@ -3,7 +3,7 @@ blocks:
   color: null
   configuration: {}
   downstream_blocks:
-  - superlative_meadow
+  - select_columns
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -19,20 +19,20 @@ blocks:
   color: null
   configuration: {}
   downstream_blocks:
-  - limitless_shadow
+  - export_to_gcs
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: python
-  name: superlative meadow
+  name: select_columns
   retry_config: null
-  status: updated
+  status: executed
   timeout: null
   type: transformer
   upstream_blocks:
   - load_from_kaggle
-  uuid: superlative_meadow
-- all_upstream_blocks_executed: false
+  uuid: select_columns
+- all_upstream_blocks_executed: true
   color: null
   configuration: {}
   downstream_blocks: []
@@ -40,14 +40,14 @@ blocks:
   executor_type: local_python
   has_callback: false
   language: python
-  name: limitless shadow
+  name: export_to_gcs
   retry_config: null
   status: executed
   timeout: null
   type: data_exporter
   upstream_blocks:
-  - superlative_meadow
-  uuid: limitless_shadow
+  - select_columns
+  uuid: export_to_gcs
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
@@ -59,7 +59,7 @@ executor_config: {}
 executor_count: 1
 executor_type: null
 extensions: {}
-name: kaggle-data-load
+name: kaggle_2_gcs
 notification_config: {}
 remote_variables_dir: null
 retry_config: {}
@@ -69,7 +69,7 @@ settings:
 spark_config: {}
 tags: []
 type: python
-updated_at: '2024-04-09 17:08:11'
-uuid: kaggle_data_load
+updated_at: '2024-04-10 09:20:13'
+uuid: kaggle_2_gcs
 variables_dir: /home/src/mage_data/fifa-processing
 widgets: []
