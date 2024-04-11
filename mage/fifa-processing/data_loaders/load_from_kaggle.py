@@ -40,8 +40,15 @@ def load_data_from_api(*args, **kwargs):
     }
     date_col = ['dob']
 
-    years = range(15,23)
-    file_path = 'dataset/players_'
+    # runtime variable
+    is_male = kwargs['male_dataset']
+
+    if is_male:
+        years = range(15,23)
+        file_path = 'dataset/players_'
+    else:
+        years = range(16,23)
+        file_path = 'dataset/female_players_'
 
     dataframes = []
     df_complete = pd.DataFrame()

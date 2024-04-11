@@ -69,7 +69,9 @@ settings:
 spark_config: {}
 tags: []
 type: python
-updated_at: '2024-04-10 09:20:13'
+updated_at: '2024-04-11 14:48:38'
 uuid: kaggle_2_gcs
+variables:
+  male_dataset: true
 variables_dir: /home/src/mage_data/fifa-processing
 widgets: []

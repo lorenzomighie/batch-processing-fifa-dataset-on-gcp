@@ -20,29 +20,29 @@ def transform(data, *args, **kwargs):
         Anything (e.g. data frame, dictionary, array, int, str, etc.)
     """
 
-    columns_to_keep = [
-        'sofifa_id',
-        'version',
-        'short_name',
-        'overall',
-        'player_url',
-        'age',
-        'dob',
-        'height_cm',
-        'weight_kg',
-        'nationality_name',
-        'club_name',
-        'league_name',
-        'league_level',
-        'potential',
-        'value_eur',
-        'wage_eur',
-        'player_positions' 
-    ]
-    print(data.columns)
+    # columns_to_keep = [
+    #     'sofifa_id',
+    #     'version',
+    #     'short_name',
+    #     'overall',
+    #     'player_url',
+    #     'age',
+    #     'dob',
+    #     'height_cm',
+    #     'weight_kg',
+    #     'nationality_name',
+    #     'club_name',
+    #     'league_name',
+    #     'league_level',
+    #     'potential',
+    #     'value_eur',
+    #     'wage_eur',
+    #     'player_positions' 
+    # ]
+    # print(data.columns)
 
     # filter out not considered fields
-    data = data[columns_to_keep]
+    # data = data[columns_to_keep]
 
     return data
 

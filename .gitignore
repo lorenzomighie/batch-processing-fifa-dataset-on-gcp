@@ -3,3 +3,6 @@ mage/.env
 mage/dataset
 mage/mage_data
 mage/kaggle.json
+spark/dataset
+spark/fifa-dataset-female.csv
+spark/fifa-dataset-male.csv
