@@ -51,7 +51,7 @@ executor_config: {}
 executor_count: 1
 executor_type: null
 extensions: {}
-name: gcs_2_bigquery
+name: test_gcs_2_bigquery
 notification_config: {}
 remote_variables_dir: null
 retry_config: {}
@@ -62,6 +62,6 @@ spark_config: {}
 tags: []
 type: python
 updated_at: '2024-04-13T13:15:03+00:00'
-uuid: gcs_2_bigquery
+uuid: test_gcs_2_bigquery
 variables_dir: /home/src/mage_data/fifa-processing
 widgets: []
