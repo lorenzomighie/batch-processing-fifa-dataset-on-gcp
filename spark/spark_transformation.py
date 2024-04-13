@@ -3,6 +3,9 @@ from pyspark.sql import SparkSession, DataFrame
 from pyspark.sql.functions import lit, col, monotonically_increasing_id
 import argparse
 
+# RUN on cloud example
+# python gs://mage-zoomcamp-bucket-lm/code/spark_transformation.py --local_run False --produce_parquet False
+
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--local_run', default=True, required=True)
