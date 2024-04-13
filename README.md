@@ -31,7 +31,7 @@ In its [dedicated directory](https://github.com/lorenzomighie/batch-processing-f
    
 ### 1. Extract and Load
 
-In this step Mage pipeline is used to:
+In this step Mage pipeline is used for:
 * Loading the data from Kaggle and doing some pre-processing
 * Exporting the dataframes produced into a Google Cloud Storage Bucket (our Data Lake)
 
