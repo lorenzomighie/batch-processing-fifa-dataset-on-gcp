@@ -15,6 +15,6 @@ services:
       - 6789:6789
     volumes:
       - .:/home/src/
-      - /home/lorenz-gcp/batch-processing-fifa-dataset-on-gcp/mage/kaggle.json:/root/.kaggle/kaggle.json
+      - $KAGGLE_PATH:/root/.kaggle/kaggle.json
       #- ~/Documents/secrets/personal-gcp.json:/home/src/personal-gcp.json
     restart: on-failure:5
