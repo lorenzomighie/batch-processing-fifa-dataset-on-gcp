@@ -3,55 +3,55 @@ blocks:
   color: null
   configuration: {}
   downstream_blocks:
-  - export_to_bigquery
+  - load_bigquery
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: python
-  name: load_from_gcs
+  name: load_pq_local
   retry_config: null
   status: executed
   timeout: null
   type: data_loader
   upstream_blocks: []
-  uuid: load_from_gcs
+  uuid: load_pq_local
 - all_upstream_blocks_executed: true
   color: null
   configuration:
     data_provider: bigquery
     data_provider_profile: default
     data_provider_schema: fifa_schema
-    data_provider_table: raw_fifa_table
+    data_provider_table: fifa_transformed_dataset
     dbt: {}
     disable_query_preprocessing: false
     export_write_policy: append
-    limit: 1000
+    limit: 100
     use_raw_sql: false
   downstream_blocks: []
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: sql
-  name: export_to_bigquery
+  name: load_bigquery
   retry_config: null
   status: executed
   timeout: null
   type: data_exporter
   upstream_blocks:
-  - load_from_gcs
-  uuid: export_to_bigquery
+  - load_pq_local
+  uuid: load_bigquery
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
 conditionals: []
-created_at: '2024-04-10 08:53:17.446851+00:00'
+created_at: '2024-04-13 13:16:22.502604+00:00'
 data_integration: null
 description: null
 executor_config: {}
 executor_count: 1
 executor_type: null
 extensions: {}
-name: gcs_2_bigquery
+name: test_load_2_bq
 notification_config: {}
 remote_variables_dir: null
 retry_config: {}
@@ -61,7 +61,7 @@ settings:
 spark_config: {}
 tags: []
 type: python
-updated_at: '2024-04-13T13:15:03+00:00'
-uuid: gcs_2_bigquery
+updated_at: '2024-04-13 13:27:44'
+uuid: test_load_2_bq
 variables_dir: /home/src/mage_data/fifa-processing
 widgets: []

@@ -1,6 +1,7 @@
 mage/svcaccount.json
 mage/.env
 mage/dataset
+mage/dataset_pq
 mage/mage_data
 mage/kaggle.json
 spark/dataset
