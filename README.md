@@ -43,23 +43,12 @@ This is a preliminary step to take into the consideration the type of the Querie
 After noticing an improvement in performance when partitioning the data by the 'version' field, the final table will be partitioned accordingly.
 More information on the dedicated [README]()
 
-
-
-
-In addition there were no difference in performance when clustering the queries by other relevant aggregator factors like the 'gender' or the 'club_name'.
-
 ### 3. Transform (and Load into BigQuery)
-Spark .... 
 
-Explaination on data transformation, 
+Here come the transformation of the data with Spark.
+This step can be executed both locally (with a PySpark installation), or on the cloud on a DataProc Cluster and it transforms the Data into a proper format and then loads the final table into BigQuery.
 
-show sample queries
-
-TODO SHOW DAG
-
-THERE ARE 2 ways of running this 
-- locally (run python script with no args)
-- on dataproc (run on dataprocs with args)
+You can see more details on the dedicated [README](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/README.md)
 
 ### 4. Visualisation
 
