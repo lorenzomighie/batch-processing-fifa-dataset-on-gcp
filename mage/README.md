@@ -21,7 +21,7 @@ lookup to the [kaggle_2_gcs pipeline](https://github.com/lorenzomighie/batch-pro
   * Parametrized execution wrt variable 'male_dataset';
   * Loads data as csv file into GCS Bucket
 
-## Transformation andData Exporting into BigQuery
+## Transformation and Data Exporting into BigQuery
 
 Since the Spark Transformation can be run locally or on the DataProc cluster, there are 2 pipelines that work accordingly to the transformation done.
 
