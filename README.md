@@ -46,10 +46,20 @@ More information on the dedicated [README](https://github.com/lorenzomighie/batc
 ### 3. Transform (and Load into BigQuery)
 
 Here come the transformation of the data with Spark.
-This step can be executed both locally (with a PySpark installation), or on the cloud on a DataProc Cluster and it transforms the Data into a proper format and then loads the final table into BigQuery.
+This step can be executed both locally (with a PySpark installation + using Mage for loading), or on the cloud on a DataProc Cluster and it transforms the Data into a proper format and then loads the final table into BigQuery.
 
 You can see more details on the dedicated [README](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/README.md)
 
 ### 4. Visualisation
+
+Finally let's see some of the results produced with Google Looker that show some insights of fifa players from 2017 to 2022.
+
+![Fifa Players Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/fifa_general_statistics.PNG)
+
+![Fifa Players Teams and National Team Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/fifa_team_statistics.PNG)
+
+Note that some of the data composing the tables and charts were added as Custom Queries in the Report Data and you can find them [here](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/queries_partition.sql)
+
+
 
 
