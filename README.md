@@ -54,9 +54,9 @@ You can see more details on the dedicated [README](https://github.com/lorenzomig
 
 Finally let's see some of the results produced with Google Looker that show some insights of fifa players from 2017 to 2022.
 
-![Fifa Players Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/fifa_general_statistics.PNG)
+![Fifa Players Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/fifa_stats.jpg)
 
-![Fifa Players Teams and National Team Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/fifa_team_statistics.PNG)
+![Fifa Players Teams and National Team Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/fifa_team_stats.jpg)
 
 Note that some of the data composing the tables and charts were added as Custom Queries in the Report Data and you can find them [here](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/queries_partition.sql)
 
