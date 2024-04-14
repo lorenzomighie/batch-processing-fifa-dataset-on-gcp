@@ -10,6 +10,9 @@ In particular most the queries written will highlight insights from each fifa ve
 * the n best teams with regard to player score or player potential,
 * the n best national teams.
 
+## High level Architecture
+
+![Project Architecture](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/images/architecture.jpg)
 
 ## Steps
 
@@ -54,9 +57,9 @@ You can see more details on the dedicated [README](https://github.com/lorenzomig
 
 Finally let's see some of the results produced with Google Looker that show some insights of fifa players from 2017 to 2022.
 
-![Fifa Players Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/fifa_stats.jpg)
+![Fifa Players Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/images/fifa_stats.jpg)
 
-![Fifa Players Teams and National Team Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/fifa_team_stats.jpg)
+![Fifa Players Teams and National Team Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/images/fifa_team_stats.jpg)
 
 You can also go directly to the Looker Report [here](https://lookerstudio.google.com/reporting/c62af307-5e4b-4baf-a798-2ab39f905be8) and [here](https://lookerstudio.google.com/reporting/67a602f4-1d66-4820-aebc-2c7a1075a654).
 
