@@ -10,7 +10,7 @@ Here is the Mage setup with the pipelines for the data ingestion.
 6. Sping Mage up by running `docker-compose up -d` within this folder
 
 ## Data Loading and Exporting
-Withing the folder fifa-processing all pipelines can be seen, however for a quick
+The pipeline blocks are located within the fifa-processing directory, however for a quick
 lookup to the [kaggle_2_gcs pipeline](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/mage/fifa-processing/pipelines/kaggle_2_gcs/metadata.yaml) blocks:
 - [load_from_kaggle](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/mage/fifa-processing/data_loaders/load_from_kaggle.py)
 - [select_colums](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/mage/fifa-processing/transformers/select_columns.py)
