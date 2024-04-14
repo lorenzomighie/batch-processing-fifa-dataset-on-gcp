@@ -41,7 +41,7 @@ resource "google_bigquery_dataset" "demo_dataset" {
 
 resource "google_dataproc_cluster" "dataproc-cluster" {
   name     = var.spark_cluster_name
-  project    = var.project_name
+  project    = var.project
   region   = var.region
 
   cluster_config {

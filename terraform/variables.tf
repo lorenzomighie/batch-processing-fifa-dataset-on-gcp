@@ -34,11 +34,6 @@ variable "gcs_storage_class" {
   default     = "STANDARD"
 }
 
-variable "gcs_storage_class" {
-  description = "Project Name"
-  default     = "diesel-air-394514"
-}
-
 
 variable "spark_cluster_name" {
   description = "Dataproc Cluster Name"
