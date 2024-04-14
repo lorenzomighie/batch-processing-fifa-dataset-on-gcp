@@ -1,4 +1,21 @@
-## Transformation
+## Repository Files
+
+In this folder you will find a couple of notebooks and the target script.
+
+You can start by taking a look at the [spark_transformation_local_test](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/spark/spark_transformation_local_test.ipynb) file which contains the spark transformation on the data that were done locally.
+
+This notebook is traduced into [this python script](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/spark/spark_transformation.py) that is parametrized to run both on local or in a Cluster.
+You can set its argument when running like this:
+```shell
+
+# Local Run (outputs a parquet file)
+python spark_transformation.py
+
+# DataProc Run
+python gs://mage-zoomcamp-bucket-lm/code/spark_transformation.py --local_run False --produce_parquet False --bucket "<bucket-name>" --dataset_name "<dataset-name>" --table_name "<table-name">
+```
+
+The [local_spark_test_queries](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/spark/local_spark_test_queries.ipynb) file instead contains some test queries done with spark and spark.Sql.
 
 ## Mage Pipelines
 
