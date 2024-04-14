@@ -4,11 +4,12 @@ Wrap-up Data Engineering project meant to apply the concepts learned in the Data
 ## Goal
 
 The goal is to extract meaningful statistics from these Datam by comparing the different players information year by year. 
-In particular most the queries written will highlight:
-- The Best players year by yearm
-- the best teams for each year, in both female and male football,
-- the teams with the highest potential by each year and for each gender
-- the increase in wage for the highest paid players year by year
+In particular most the queries written will highlight insights from each fifa version (or year) such as:
+* the best players,
+* change in the player values,
+* the n best teams with regard to player score or player potential,
+* the n best national teams.
+
 
 ## Steps
 
