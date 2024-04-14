@@ -21,7 +21,9 @@ The [local_spark_test_queries](https://github.com/lorenzomighie/batch-processing
 
 Since the Spark Transformation can be run locally or on the DataProc cluster, there are 2 pipelines that work accordingly to the transformation done.
 
-### * Exporting Data by Triggering Spark Job on DataProc
+### Exporting Data by Triggering Spark Job on DataProc
+
+This part is not developed yet, for now the DataProc jobs need to be started manually form the CGP web GUI, however by adding the gcloud CLI on Mage Dockerfile the Job could be triggered via a Mage Pipeline like in this [doc](https://cloud.google.com/dataproc/docs/guides/submit-job#dataproc-submit-job-python).
 
 ### * Exporting Data produced by Local Spark Job
 If the Spark Transformation was done locally, the transformed Data will be produced within a .parquet file and [this pipeline](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/tree/main/mage/fifa-processing/pipelines/local_pq_2_bigquery) is used to:
