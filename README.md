@@ -44,7 +44,7 @@ After noticing an improvement in performance when partitioning the data by the '
 More information on the dedicated [README]()
 
 
-Tests are made on the raw data exported into BigQuery and what results from them is that, even though the DataSet is small (about 100 MB), and there should be no relevent perfomance increase with partitioning (because the dataset is < 1GB), the empirical results show that there when partitioning takes place the bytes processed are reduce with an order of 10 times.
+
 
 In addition there were no difference in performance when clustering the queries by other relevant aggregator factors like the 'gender' or the 'club_name'.
 
