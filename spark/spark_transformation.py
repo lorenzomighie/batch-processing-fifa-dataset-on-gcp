@@ -113,6 +113,9 @@ def save_data(df_final: DataFrame):
     if not local:
         table_path = '{}.{}'.format(bq_dataset, bq_table)
         df_final.write.format('bigquery').option('table', 'table_path').save()
+        # NOTE that I could not find a way to partition this table with bigquery connector,
+        # However I did partion it afterward with BigQuery in line 4 of
+        # this file https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/queries_partition.sql
 
     print('Data Saved Successfully')
 
