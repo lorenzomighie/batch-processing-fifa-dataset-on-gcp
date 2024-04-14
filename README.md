@@ -58,6 +58,8 @@ Finally let's see some of the results produced with Google Looker that show some
 
 ![Fifa Players Teams and National Team Statistics](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/fifa_team_stats.jpg)
 
+You can also go directly to the Looker Report [here](https://lookerstudio.google.com/reporting/c62af307-5e4b-4baf-a798-2ab39f905be8) and [here](https://lookerstudio.google.com/reporting/67a602f4-1d66-4820-aebc-2c7a1075a654)
+
 Note that some of the data composing the tables and charts were added as Custom Queries in the Report Data and you can find them [here](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/queries_partition.sql)
 
 
