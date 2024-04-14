@@ -16,7 +16,7 @@ Now you can run Terraform commands:
 terraform init
 
 # Check changes to new infra plan
-terraform plan -var="project=<your-gcp-project-id>"
+terraform plan -var="project=<your-gcp-project-id>" -var="gcs_bucket_name=<bucket-name>"
 ```
 
 ```shell
