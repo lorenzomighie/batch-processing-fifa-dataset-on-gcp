@@ -41,7 +41,7 @@ In this step Mage pipeline is used for:
 This is a preliminary step to take into the consideration the type of the Queries that will be applied and hence deciding whether partitioning or clustering needs to take place. 
 
 After noticing an improvement in performance when partitioning the data by the 'version' field, the final table will be partitioned accordingly.
-More information on the dedicated [README]()
+More information on the dedicated [README](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/README.md)
 
 ### 3. Transform (and Load into BigQuery)
 
