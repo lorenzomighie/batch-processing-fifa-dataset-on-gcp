@@ -1,4 +1,4 @@
-# Batch processing of the fifa players dataset on Google Cloude
+# Batch Processing fifa player dataset on Google Cloud
 Wrap-up Data Engineering project meant to apply the concepts learned in the Data Engineering Zoomcamp Course, while developing a full-cycle Data Engineering project with Mage, GCS, BigQuery, PySpark and DataProc.
 
 ## Goal
