@@ -12,7 +12,7 @@ In particular most the queries written will highlight insights from each fifa ve
 
 ## High level Architecture
 
-![Project Architecture](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/images/architecture.jpg)
+![Project Architecture](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/images/architecture_dataproc.png)
 
 ## Steps
 
@@ -65,9 +65,14 @@ You can also go directly to the Looker Report [here](https://lookerstudio.google
 
 Note that some of the data composing the tables and charts were added as Custom Queries in the Report Data and you can find them [here](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/queries_partition.sql).
 
+### Local Architecture Image
+
+Since that for debugging the Transformation with Spark can be run locally, when doing so the architecture looks more like this.
+
+![Project Architecture](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/images/architecture_local.png)
+
 ### Credits
 
 A huge thanks to [DataTalksClub](https://github.com/DataTalksClub) for delivery this high-quality course.
 
-Credit to AudhootChavan for the Image with the Architecture.
 
