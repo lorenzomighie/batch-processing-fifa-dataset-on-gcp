@@ -3,12 +3,13 @@ Wrap-up Data Engineering project meant to apply the concepts learned in the Data
 
 ## Goal
 
-The goal is to extract meaningful statistics from these Datam by comparing the different players information year by year. 
-In particular most the queries written will highlight insights from each fifa version (or year) such as:
-* the best players,
-* change in the player values,
-* the n best teams with regard to player score or player potential,
-* the n best national teams.
+The goal of this project is to develop an end-to-end data pipeline to extract meaningful and useful statistics on the Best and most promising Soccer Teams and Players, by using the Data from the popular Videogame Fifa (its dataset contains more than 100 features for each player in the game from 2015 to 2022).
+
+In particular most the queries written will highlight insights from each version of Fifa (or year) such as:
+* the best player for each year,
+* the total values of the best 100 players (to highlight the rise of monetary values in Soccer),
+* the n best teams and national teams,
+* the n most promising teams.
 
 ## High level Architecture
 
