@@ -3,12 +3,14 @@ Wrap-up Data Engineering project meant to apply the concepts learned in the Data
 
 ## Goal
 
-The goal is to extract meaningful statistics from these Datam by comparing the different players information year by year. 
-In particular most the queries written will highlight insights from each fifa version (or year) such as:
-* the best players,
-* change in the player values,
-* the n best teams with regard to player score or player potential,
-* the n best national teams.
+The goal of this project is to develop an end-to-end data pipeline to extract meaningful and useful statistics on the Best and most promising Soccer Teams and Players, by using the Data from the popular Videogame Fifa (its dataset contains more than 100 features for each player in the game from 2015 to 2022).
+
+In particular most the queries written will highlight insights from each version of Fifa (or year) such as:
+* the number of players in Fifa (Male and Female),
+* the best player for each year,
+* the total values of the best 100 players (to highlight the rise of monetary values in Soccer),
+* the n best teams and national teams,
+* the n most promising teams.
 
 ## High level Architecture
 
@@ -51,7 +53,7 @@ More information on the dedicated [README](https://github.com/lorenzomighie/batc
 Here come the transformation of the data with Spark.
 This step can be executed both locally (with a PySpark installation + using Mage for loading), or on the cloud on a DataProc Cluster and it transforms the Data into a proper format and then loads the final table into BigQuery.
 
-You can see more details on the dedicated [README](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/README.md)
+You can see more details on the dedicated [README](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/spark/README.md)
 
 ### 4. Visualisation
 
