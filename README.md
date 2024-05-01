@@ -51,7 +51,7 @@ More information on the dedicated [README](https://github.com/lorenzomighie/batc
 Here come the transformation of the data with Spark.
 This step can be executed both locally (with a PySpark installation + using Mage for loading), or on the cloud on a DataProc Cluster and it transforms the Data into a proper format and then loads the final table into BigQuery.
 
-You can see more details on the dedicated [README](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/bigquery/README.md)
+You can see more details on the dedicated [README](https://github.com/lorenzomighie/batch-processing-fifa-dataset-on-gcp/blob/main/spark/README.md)
 
 ### 4. Visualisation
 
